@@ -139,7 +139,7 @@ nav .left h1:hover::after {
 .section1 .right h1 {
     font-size: 9vw;
     font-family: Roboto;
-    font-weight: 800;
+    font-weight: 400;
     line-height: 7vw;
     letter-spacing: .1vw;
 }
