@@ -9,6 +9,7 @@ function func_start() {
 
 function touchStart() {
     var menu = document.querySelector(".ham-burger");
+    var close = document.querySelector(".ham-burger .close-icon i")
     let touchstartX = 0;
     let touchEndX = 0;
 
@@ -24,6 +25,12 @@ function touchStart() {
         } else if (swipeDist > 100) {
             menu.classList.remove("open")
         }
+    
+
+    })
+
+    close.addEventListener("click", function () {
+        menu.classList.remove("open")
     })
 }
 
