@@ -644,11 +644,11 @@ ul {
         }
 
         .footer-col {
-            width: 100%;
+            width: 50%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            padding-bottom: 10vw;
         }
 
         nav .left {
@@ -890,6 +890,7 @@ ul {
 
         .loader h1 {
             font-size: 10vw;
+            padding-bottom: 10%;
         }
 
         .section4 {
@@ -897,9 +898,8 @@ ul {
         }
 
         footer {
-            min-height: 95vh;
+            min-height: 50vh;
             text-align: center;
-            padding-bottom: 0;
         }
 
         .footer-col h4::before {
@@ -912,7 +912,19 @@ ul {
             box-sizing: border-box;
             width: 95px;
             text-align: center;
+        }
 
+        .footer-col .social-links a {
+            font-size: 10px;
+            display: inline-block;
+            height: 25px;
+            width: 25px;
+            background-color: rgba(255, 255, 255, 0.2);
+            text-align: center;
+            line-height: 28px;
+            border-radius: 50%;
+            color: #ffffff;
+            transition: all 0.5s ease;
         }
 
         .swiper {
@@ -966,9 +978,6 @@ ul {
             transition: all linear .2s;
         }
 
-        .ham-burger.open {
-            right: 0;
-        }
 
         .ham-burger::after {
             content: "";
@@ -1012,6 +1021,10 @@ ul {
             font-family: Roboto;
             font-size: 6vw;
 
+        }
+
+        .ham-burger.open{
+            right: 0 !important;
         }
     }
 
@@ -1389,11 +1402,11 @@ ul {
         }
 
         .footer-col {
-            width: 100%;
+            width: 50%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            padding-bottom: 10vw;
         }
     
         .footer-col h4 {
@@ -1417,6 +1430,24 @@ ul {
             padding-bottom: 2vw;
             transition: all 0.3s ease;
             text-align: center;
+        }
+
+        .footer-col .social-links a {
+            font-size: 25px;
+            display: inline-block;
+            height: 45px;
+            width: 45px;
+            margin-left: 1vw;
+            background-color: rgba(255, 255, 255, 0.2);
+            text-align: center;
+            line-height: 44px;
+            border-radius: 50%;
+            color: #ffffff;
+            transition: all 0.5s ease;
+        }
+
+        .footer-col h4::before {
+            display: none;
         }
 
 
